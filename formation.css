@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(136, 134, 134);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+
+/****** ECOLE ******/
+
+
+.ecole {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 10em 2em 10em ;
+}
+
+.titre-logo {
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.description-ecole {
+    width: 50%;
+    margin: 1em;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(50px);
+    padding: 5px 3px 5px 7px;
+    border-radius: 10px;
+}
+
+.img-ecole {
+    width: 60%;
+    margin: 1em;
+}
+
+.img-ecole img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+/****** Formation ******/
+
+.formation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 10em 2em 10em;
+
+}
+
+.titre-diplome {
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.desc-SISR {
+    width: 30%;
+    margin: 1em;
+    text-align: center;
+}
+
+.texte-SISR {
+
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(50px);
+    padding: 5px 3px 5px 7px;
+    border-radius: 10px;
+}
+
+.desc-SLAM {
+    width: 30%;
+    margin: 1em;
+    text-align: center;
+}
+
+.texte-SLAM {
+
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(50px);
+    padding: 5px 3px 5px 7px;
+    border-radius: 10px;
+}
